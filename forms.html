@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="B1.css">
+</head>
+<body>
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О себе</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Форма</a></li>
+            <li><a href="#">Помощь</a></li>
+        </ul>
+
+    </nav>
+    <div class="container">
+    <div class="info">
+        <h1>Readme</h1>
+     <img src="https://tocrypto.ru/content/uploads/2018/07/0001.jpg" class="avatar">
+        <ul>
+         <li><strong>i am Mensios Weal</strong></li>
+         <li>Me 20 years</li>
+         <li>I am is beginer programmer</li>
+         </ul>
+    </div>
+    <h2>Forms</h2>
+
+    <form class="text">
+        
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="input password">
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" min="0">
+        
+        </div>
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        
+        </div>
+        <div>
+            <label for="date">date</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" id="color">
+        </div>
+        
+        <div>
+            <label for="sex">your sex</label>
+            <select id="sex">
+                <option value="male">man</option>
+                <option value="female">women</option>
+                <option value="other">other</option>
+            </select>    
+        </div>
+        <div>
+            <label>Quantity</label>
+            <input type="radio" name="work">1
+            <input type="radio" name="work">2
+            <input type="radio" name="work">5
+            <input type="radio" name="work">10+
+        </div>
+        <div>
+            <label>Loved food</label>
+            <input type="checkbox" name="food">potato
+            <input type="checkbox" name="food">bread
+            <input type="checkbox" name="food">Mollusks
+            <input type="checkbox" name="food">apple
+        </div>
+
+        <!--input type="submit" value="send text">-->
+        <button type="submit" class="btn">Send form</button>
+    </form>
+    </div>
+    <div class="contact">
+
+    <h2>Contact me</h2>
+        <div class="form-row">
+
+        <div class="form-group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+        
+        </div>
+
+        <div class="form-group">
+            <label for="message">message</label>
+            <textarea id="message" cols="25" rows="10" placeholder="Введите сообщение"></textarea>
+        </div>
+
+        
+    </div>
+</body>
+</html>
